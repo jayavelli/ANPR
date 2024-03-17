@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Plate Recognition Image</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='NPR Image.css') }}">
+</head>
+<body>
+    <div class="container">
+    <form action="{{url_for('predict1')}}" enctype="multipart/form-data" method="post">
+        <br><br><br>
+        <h1>Flower Recognition System</h1>
+        <div class="area">
+            <br><br><br>
+            <br><br>
+            <input type="file" name="file" id="file">  
+            <br><br>
+        </div>
+        <button type="submit">Predict</button>
+    </form> 
+</body>
+</html>

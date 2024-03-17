@@ -1,0 +1,27 @@
+.main {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: blue;
+    padding-top: 10%;
+    position: relative; /* Required for absolute positioning */
+    display: flex; /* Use flexbox to arrange items */
+    justify-content: space-between; /* Items at the start and end of the container */
+}
+
+.bottom-left, .bottom-right {
+    color: white;
+    width: calc(40% - 10px); /* 40% width minus padding */
+    height: 200px; /* Adjust height as needed */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bottom-left {
+    background-color: green;
+}
+
+.bottom-right {
+    background-color: red;
+}

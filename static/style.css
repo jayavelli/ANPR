@@ -1,0 +1,43 @@
+ .main {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: blue;
+    padding-top: 10%;
+}
+
+.sub1{ background-color: white; margin-bottom: 10px; padding: 10px; float: left;
+ width: 25%; margin-right: 5%; height: 50%;
+
+}
+
+.sub2{
+    background-color: orange;
+    margin-bottom: 10px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+    height: 50%;
+}
+
+.sub3{
+   /*    background-color: teal;*/
+    margin-bottom: 10px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+    height: 25%;
+    background-image: url('NPR.jpeg'); 
+    background-size:small;
+    background-repeat: no-repeat;
+    background-size: COVER;
+}
+.aa{
+    padding-top: 50%;
+    text-align: center;
+    color: red;
+
+}
